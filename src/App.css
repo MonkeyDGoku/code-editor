@@ -1,0 +1,28 @@
+.markdown {
+  color: var(--bg-white);
+}
+
+.app__content {
+  margin: auto;
+  width: 98%;
+  height: 600px;
+  background-color: var(--bg-zinc-600);
+  display: flex;
+}
+
+.editor {
+  flex: 0.5;
+  background-color: var(--bg-zinc-500);
+  border: 1px solid black;
+}
+
+.preview {
+  flex: 0.5;
+  background-color: var(--bg-zinc-500);
+  padding: 20px;
+  font-size: var(--space-1);
+}
+
+.monaco__editor {
+  background-color: aqua;
+}
