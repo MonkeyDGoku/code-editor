@@ -268,4 +268,5 @@
   /* Created with https://www.css-gradient.com */
 
   --bg-lg-1: linear-gradient(hsl(32, 100%, 50%), var(--bg-pink-900-light));
+  --header-height: 50px;
 }

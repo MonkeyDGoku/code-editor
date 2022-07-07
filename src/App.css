@@ -5,7 +5,8 @@
 .app__content {
   margin: auto;
   width: 98%;
-  height: 600px;
+  min-height: calc(100vw - var(--header-height));
+  height: calc(100vw - var(--header-height));
   background-color: var(--bg-zinc-600);
   display: flex;
 }
@@ -18,9 +19,10 @@
 
 .preview {
   flex: 0.5;
-  background-color: var(--bg-zinc-500);
+  background-color: var(--bg-slate-800);
   padding: 20px;
   font-size: var(--space-1);
+  overflow: scroll;
 }
 
 .monaco__editor {

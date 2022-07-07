@@ -30,6 +30,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bg-zinc-900);
   color: var(--bg-white);
+  overflow: hidden;
 }
 
 /* A elements that don't have a class get default styles */

@@ -1,5 +1,4 @@
 .app__header {
-  --header-height: 50px;
   width: 100vw;
   height: var(--header-height);
   background-color: var(--bg-zinc-800);
